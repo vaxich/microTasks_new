@@ -7,6 +7,7 @@ import { Footer } from './site/Footer';
 import { MetodMap } from './site/MetodMap';
 import { Button, UniversalButton } from './site/Button';
 import { MetodFilter } from './site/MetodFilter';
+import { UniversalInput } from './site/UniversalInput/UniversalInput';
 
 
 
@@ -51,7 +52,7 @@ const onClickHandler =() => {
 
   return (
     <div>
-      <Header title = {"New Header"}/>
+      {/* <Header title = {"New Header"}/>
       <Body titleForBody = "New Body"/>
       <Footer />
       <MetodMap students={students} />
@@ -62,7 +63,8 @@ const onClickHandler =() => {
       <h1>{a}</h1>
       <button onClick={onClickHandler}>number</button>
       <button onClick={ () => {setA(0)}}>0</button>
-      <MetodFilter />
+      <MetodFilter /> */}
+      <UniversalInput />
     </div>
 
   );
