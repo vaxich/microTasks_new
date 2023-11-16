@@ -8,6 +8,7 @@ import { MetodMap } from './site/MetodMap';
 import { Button, UniversalButton } from './site/Button';
 import { MetodFilter } from './site/MetodFilter';
 import { UniversalInput } from './site/UniversalInput/UniversalInput';
+import {App2} from './dop7/App2';
 
 
 
@@ -64,7 +65,8 @@ const onClickHandler =() => {
       <button onClick={onClickHandler}>number</button>
       <button onClick={ () => {setA(0)}}>0</button>
       <MetodFilter /> */}
-      <UniversalInput />
+      {/* <UniversalInput /> */}
+      <App2/>
     </div>
 
   );
